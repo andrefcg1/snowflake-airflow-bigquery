@@ -138,7 +138,6 @@ plugins/__pycache__/
 .airflowignore
 
 # Astronomer specific
-.astro/
 astro-runtime-version
 
 # Docker
@@ -246,7 +245,6 @@ dags/__pycache__/
 plugins/__pycache__/
 
 # Astronomer
-.astro/
 astro-runtime-version
 
 # Local development

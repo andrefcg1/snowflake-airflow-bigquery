@@ -1,0 +1,6 @@
+project:
+    name: snowflake-airflow-bigquery
+deployments:
+  - name: dev
+    runtime:
+      image: astrocrpublic.azurecr.io/runtime:2.8-12  # Airflow 2.8
