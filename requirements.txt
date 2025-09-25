@@ -1,0 +1,7 @@
+apache-airflow-providers-snowflake
+apache-airflow-providers-google
+snowflake-connector-python
+pandas
+pyarrow
+google-cloud-bigquery
+google-cloud-storage

@@ -1,0 +1,18 @@
+airflow:
+  connections:
+    - conn_id: snowflake_default
+      conn_type: Snowflake
+      conn_host: vha74170.east-us-2.azure.snowflakecomputing.com
+      conn_schema: TPCH_SF1
+      conn_login: andrefcg1
+      conn_password: cgmbUC5nc3uzVbP
+      conn_port: 443
+      conn_extra:
+        account: vha74170.east-us-2.azure
+        database: SNOWFLAKE_SAMPLE_DATA
+    - conn_id: google_cloud_default
+      conn_type: google_cloud_platform
+      conn_extra:
+        key_path: /usr/local/airflow/include/gcp/service_account.json
+        project_id: ambient-elf-472302-i1
+        scope: https://www.googleapis.com/auth/cloud-platform
