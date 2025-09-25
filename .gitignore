@@ -185,7 +185,7 @@ local_settings.py
 .env.production.local
 
 # Test files
-test_*.py
+# test_*.py  # Commented out to allow test_connections.py
 *_test.py
 tests/
 
